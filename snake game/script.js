@@ -50,7 +50,7 @@ function points(){
 }
 
 function messege2(){
-    messege="this game is made by souvik"
+    messege="This game is made by souvik"
     context.fillStyle="black";
     context.font="20px courier"
     context.fillText(messege,columns/2,tilesize*rows/2);
@@ -58,7 +58,7 @@ function messege2(){
 }
 
 function messege3(){
-    messege="hopefully you are enjoying it"
+    messege="hope you are enjoying it"
     context.fillStyle="black";
     context.font="20px courier"
     context.fillText(messege,columns/2,tilesize*rows/2);
