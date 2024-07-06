@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color:rgb(146, 168, 209);
+
+}
+h5{
+    font-family:math;
+}
+.Header{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Header h1{
+    font-size: 40px;
+    font-weight:600;
+    padding-right: 20px;
+    margin-left: -200px;
+}
+.Header p{
+    font-size: 15px;
+    align-self: end;
+    margin-left: -20px;
+    font-family: cursive;
+    color:rgb(48,48,48);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 1100px;
+    height: 400px;
+    margin: 60px auto;
+    
+}
+.gamebody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin-left: 200px;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid aliceblue;
+
+    
+}
+.box{
+    height: 100%;
+    width: 100%;
+    font-size: 80px;
+    color: aliceblue;
+    background-color: #667fa6;
+}
+
+.winner h5{
+    font-weight: 600px;
+    color: rgb(11, 63, 61);
+    font-size: 20px;
+}
+.Button{
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 80px;
+    height: 25px;
+    background-color: #34568B;
+    color: darkturquoise;
+}
+    
+.NewGame{
+    position: absolute;
+    top: 150px;
+    margin-left: 250px;
+    width: 150px;
+    height: 40px;
+}
+.reset{
+    position: absolute;
+    bottom:0px;
+    margin-left: 20px;
+}
+.img{
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    background-image: url("E:\\my projects\\tic tac toe\\images\\tac.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+    
+}
+.messege
+{
+    height:30px;
+    width: 100%;
+}
+.hide{
+    visibility: hidden;
+}
