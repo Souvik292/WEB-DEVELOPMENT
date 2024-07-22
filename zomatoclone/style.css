@@ -1,0 +1,1021 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Okra, Helvetica, sans-serif; 
+    box-sizing: inherit; 
+   
+}
+div,p,span{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+.header1{
+    width:100%;
+    height: 486.64px; 
+    
+}
+.headerimage{
+    width:100;
+    height:100%;
+    background-image:url("E:\\my projects\\zomatoclone\\images\\header\\zomato front.avif");   
+    width:100;
+    height:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-size: 922.400px 38px;
+    padding: 17px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: disc;
+}
+#navbarul{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-right:20% 
+}
+#navlist1{
+    color: #ffffff;
+    font:14px okra,Helvetica, sans-serif;
+    padding:0px 0px 10px;
+    list-style: none;
+    text-decoration: none;  
+}
+.navanchor{
+    display: flex;
+    justify-content:space-around;  
+}
+.navlist{
+    list-style: none;
+}
+.navlist a{
+    color: #ffffff;
+    font:18px souvik,Helvetica, sans-serif;
+    text-decoration: none;
+    padding:16px;
+}
+.icon {
+    margin-top:110.200px;  
+}
+.container{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\header\\zomato logo.png");
+    background-repeat: no-repeat;
+    height:60px;
+    width:300px;
+    background-size: contain;
+    position: relative;
+}
+.heading{ 
+    margin: 30px 0px 0px;   
+}
+.heading h1{
+    color: #ffffff;
+    font-size: 36px;
+}
+.div3{
+    display: flex;
+    justify-content:center;
+}
+.navsearchbar{
+    padding: 1px 2px;
+    margin-top: 30px;
+    margin-left:24%;
+    margin-right: 24%;
+    background-color: #ffffff;
+    height: 52.4px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;    
+}
+
+.navsearchbar input{
+    border: none;
+    outline: none;
+
+
+}
+.gps{
+
+    border-right: 4px black;
+    padding: 0px 10px;
+}
+.gps1{
+    margin: 0px 10px 0px 2px;
+    padding: 1px 2px;
+    font-size: 14px;
+}
+.digital-caret{
+    cursor: pointer;
+}
+.choosenavsearchbar{
+    width: 360px;
+    max-height: 383px;
+    background: white;
+    border-radius: 8px;
+    position: absolute;
+    left: 355px;
+    overflow: auto;
+    border: 1px solid rgb(207, 207, 207);
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    top: 395px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.25s ease 0s, top 0.25s ease 0s;
+    z-index: 10;
+}
+.choosenavlocation{
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(232, 232, 232) 0px -0.5px 0px inset;
+    padding: 18px 18px 18px 15px;
+}
+.choosenavlocation p{
+    line-height: 1.5;
+    margin: 0px 0px 0px 26px;
+    font-size: 13px;
+    color: rgb(156, 156, 156);
+    text-align: left;
+}
+.choose-location{
+    display: flex;
+    align-items: center;
+
+}
+.choose-location p{
+    line-height: 1.5;
+    margin: 0px;
+    color: rgb(239, 79, 95);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 6px;
+}
+.searchingglass{
+    margin: 1px 12px 1px 12px;
+}
+.caret{
+    width: 100%;
+    border-radius: 0.8px; 
+}
+.line{
+    height:2rem;
+    width: 0px;
+    border:0.05rem solid rgb(207, 207,207);
+
+}
+.caret input{
+    width:100%;
+    font-size:14px;
+}
+.fa-caret-down{
+    padding-left: 10px;
+}
+
+
+.contentz{
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:162px;
+    width:353.34px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.p1{
+    padding: 10px 20px 16px;
+    border: 1px solid rgb(232, 232, 232);
+    height:56x;
+    width: 311.737px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    box-sizing:inherit;
+}
+.allbeforecollection{
+    height: 260px;
+    width:366.66px;
+    padding: 0px 6px 20px 2px;
+}
+.main{
+    position: relative;
+    margin:40px auto;
+    max-height: initial;
+    max-width: 1100px;
+}
+.beforecollection{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.orderimg{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\orderonline.avif");  
+}
+.diningimg{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\dining.avif");
+}
+.nightlifeimg{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\nightclub.avif");
+}
+.firstbox{
+    border-radius: 50%;
+}
+.allp1{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    color: rgb(54,54,54);
+}
+.allp2{
+    font-size: 16px;
+    color: rgb(79,79,79);
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.allbeforecollection:hover{
+    transform: scale(1.04);
+    transition: all 300ms ease-out ;
+}
+.headingcollection{
+    display: flex;
+    justify-content:space-between;
+}
+.collectionheading{
+    height: 72.4px;
+}
+.collectionheading h2{
+    font-weight: 500;
+    height: 43.200px;
+    font-size: 36px;
+    line-height: 1.2;
+    color: rgb(28,28,28);
+}
+.collection{
+    margin:60px 0px 100px 0px;
+}
+.headingcollection h6{
+    font-weight:300;
+    line-height: 1.4;
+    color:rgb(54, 54, 54);
+    font-size: 18px;
+  
+
+}
+.headingcollection a{
+    text-decoration:none;
+    color: rgb(255,126,139);
+}
+.collectionContent{
+    display: flex;
+    height: 330px;
+    width:100%;
+    margin-top: 30px;
+}
+.firstContent{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\collection1.avif");
+}
+.secondContent{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\collection2.avif");
+}
+.thirdContent
+{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\collection3.avif");
+}
+.fourthContent{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\collection4.avif");
+}
+.contenty{
+    background-size: cover;
+    width: 267.5px;
+    height: 320px;
+    border-radius:6px;
+
+}
+.contentg{
+    width: 267.5px;
+    height: 320px;
+    padding:0px 9px 10px 0px;
+    position: relative;
+}
+.section3p p{
+    padding: 0px 16px;
+    line-height: 1.5;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+}
+.section3p{
+    position: absolute ;
+    bottom: 0px;
+}
+.h61 h6{
+    font: 14px;
+    color:#ffffff;
+    margin:0px 7px 0px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:1.2;
+}
+.h61{
+    display: flex;
+    align-items: center;
+    margin: 3px 0px 10px;
+    padding: 0px 16px;
+}
+.section2p{
+    position: absolute;
+    border-radius:6px;
+    top: 0px;
+    left: 0px;
+    width: 267.5px;
+    height: 320px;
+    background:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.9)0%,
+        rgba(0,0,0,0.05)50%,
+        rgba(0,0,0,0.05)85%);
+}
+.localities{
+    width: 100%;
+    height: 379px;  /*it will be change later */
+    margin-bottom: 100px;
+    /* position: relative; */
+}
+.titleLocalities{
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+    /* position: absolute; */
+ 
+}
+.titleLocalities p{
+    margin-top: 0px;
+    color: rgb(54, 54, 54);
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.titleLocalities span{
+    font-weight: 530;
+    font-size: 36px;
+    
+}
+.box1stpart{
+    display: flex;
+    flex-direction: column;
+}
+.box1stpart h5{
+    font-weight:400;
+    line-height:1.2 ;
+    font-size: 20px;
+    color: rgb(28, 28, 28);
+}
+.box1stpart p{
+    line-height:1.5;
+    color: rgb(54, 54, 54);
+    margin: 0px;
+}
+.allLocalities{
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 33.33333%;
+    padding:0px 10px 15px 0px; */
+    /* display: flex;
+    flex-wrap:nowrap; */
+
+
+}
+.localitiescommon{
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(232, 232, 232);
+    background: white;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: rgba(28, 28, 28, 0.08)0px 1.42623px 2.85246px;
+}
+.common{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 33.3333%;
+    padding: 0px 10px 15px 0px;
+
+}
+.localities9a{
+    display: flex;
+    justify-content: center;
+    height: 73.6px;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(232, 232, 232);
+    background: white;
+    margin-bottom: 5px;
+    align-items: center;
+    box-shadow: rgba(28, 28, 28, 0.08)0px 1.42623px 2.85246px;
+}
+.boxpart{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.fa-angle-down{
+    color: #1c1c1c;
+}
+.downloadbox{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 251, 247);
+}
+.downloadbox1{
+    position: relative;
+    max-height: 480px;
+    max-width: 900px;
+    margin: 30px auto 0px;
+    display: flex;
+    justify-content:flex-end;
+}
+.phoneimage{
+    position: relative;
+    height:450px ;
+    width: 250px;
+    /* margin-bottom: 0px; */
+}
+.phoneimg{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\mobilepic.avif");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:350px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+.contentbox{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    margin-right: 20px;
+    /* align-items: center; */
+
+}
+.applink{
+    position: relative;
+    top:30px;
+    width: 450px;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+.applink h2{
+    color: rgb(28, 28, 28);
+    font-weight: 500;
+    margin:0px 0px 15px;
+    font-size: 44px;
+    line-height: 56px;
+}
+.applink-p{
+    margin: 0px 0px 25px;
+    line-height: 32px;
+    font-size: 17px;
+    width: 100%;
+    color: rgb(54, 54, 54);
+}
+.selection{
+    display: flex;
+    justify-content: space-between;
+    height: 38.2px;
+    width: 225px;
+}
+.dot{
+    color: rgb(239, 79, 95);
+    display: none;
+}
+.foremailphone{
+  margin-bottom: 16px;
+  margin-right: 24px;
+  width: max-content;
+
+}
+.foremailphone2{
+    width: max-content;
+    margin-bottom: 16px;
+    margin-right: 24px;
+}
+.foremailphone span{
+    padding-top: 2px;
+    cursor: pointer;
+    color: rgb(28, 28, 28);
+    margin: 0px 0px 1px 8px;
+}
+.radioCircle circle{
+    stroke:rgb(156, 156, 156);
+    stroke-width: 1px;
+    fill: rgb(255, 255, 255);
+}
+.radioCircle{
+    height: 22px;
+    width: 22px;
+}
+.radioCircle2{
+    height: 22px;
+    width: 22px;
+}
+.radioCircle2 circle{
+    stroke:rgb(156, 156, 156);
+    
+    stroke-width: 1px;
+    fill: rgb(255, 255, 255);
+}
+.circle{
+    font-size: 15px;
+    color: rgb(28,28,28);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+    height: 100%;
+}
+
+.hidden{
+    visibility: hidden;
+}
+.allcircle:hover{
+    stroke:rgb(239, 79, 95);
+    stroke-width: 1px;
+
+}
+.phoneno-link{
+    display:flex;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+.email-phone{
+    position: relative;
+    width:292px;
+    height: 48px;
+}
+#emailinput{
+    padding: 13px 12px;
+    height: 48px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(207, 207, 207);
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: rgb(28, 28, 28);
+}
+.applinkbutton{
+    margin-left: 8px;
+    width: 150px;
+    height: 48px;
+}
+.applinkbutton button{
+    width: 100%;
+    height:48px;
+    background-color: rgb(239, 79, 95);
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+ .span34{
+    width: 100%;
+    font: 16px ;
+    color: rgb(255, 255, 255);
+}
+.span12{
+
+    width: 100%;
+    height:100%;
+    background-color:rgb(239, 79, 95) ;
+    padding: 0px 16px;
+    box-sizing:border-box;
+}
+.downloadapp{
+    line-height: 1.5;
+    margin: 0px 0px 15px;
+    color: rgb(156, 156, 156);
+    font-size: 14px;
+}
+.downloadFromGoogle-Appstore{
+   
+    height: 40px;
+    width: 137px;
+}
+.downloadFromGoogle{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\googleplayimg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.downloadFromAppstore{
+    margin-left: 20px;
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\appstoreimg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.downloadfrom{
+    display: flex;
+}
+.none{
+    display: none;
+}
+.phone{
+     position: relative;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 6px;
+}
+.phone1{
+    height: 30px;
+    width: 68.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    top:10px;
+    left: 10px;
+}
+.countrycode{
+    display:flex;
+    cursor: pointer;
+}
+.allcountrycode{
+    cursor: pointer;
+   
+    position: absolute;
+    top: 40px;
+    padding: 0.8rem 0px;
+    width: calc(100% + 8px);
+    margin-left: -18px;
+    max-height: 200px;
+    overflow-y: auto;
+    border-radius: 6px;
+    box-shadow: rgba(28, 28, 28, 0.15) 0px 2px 8px;
+    z-index: 10;
+    user-select: none;
+    background: rgb(255, 255, 255);
+}
+.numbers2{
+   
+    box-sizing: border-box;
+    height: 30px;
+    width: 100%;
+    padding: 0px 8px;
+    cursor: pointer;
+    text-align:right;
+   justify-content: space-between;
+}
+
+.numbers2 span{
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(28, 28, 28);
+    min-width: 40px;
+    text-align: right;
+}
+#bar{
+    width: 0px;
+    height: 24px;
+    border-right: 1px solid rgb(207, 207, 207);
+    margin-left: 10px;
+}
+.countrycodearrow{
+    margin: 4px 0px 0px 2px;
+    transition: transform 0.2s ease 0s;
+    transform: rotate(0deg);
+}
+#phoneinput{
+    position:absolute;
+ /* left:80px; */
+    border: none;
+    border-radius:6px;
+    outline: none;
+    width: 70%;
+    height: 100%;
+    color: rgba(28, 28, 28);
+    font-size: 18px;
+    right: 0px;
+
+}
+
+
+.explore{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.explorea{
+    padding: 50px 0px 0px 0px;
+}
+.explorea p{
+    margin: 0px 0px 20px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(54, 54, 54);
+}
+.popular{
+    margin-bottom: 20px;
+}
+
+.titleexplorea{
+    height: 66px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 0px;
+    border: 1px solid rgb(232, 232, 232);
+    /* border-top: 1px solid rgb(232, 232, 232);
+    border-right: 1px solid rgb(232, 232, 232);
+    border-bottom: 1px solid rgb(232, 232, 232) ; */
+    cursor: pointer;
+    
+ 
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-image: initial;
+    opacity: 1;
+    pointer-events: auto;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+}
+.bottomborder{
+    border-bottom: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius:0px;
+}
+
+.tabexplorea{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 24px;
+}
+.tabexplorea h5{
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0px;
+}
+.forallexplorea2{
+    /* height: 66px; */
+    box-sizing: border-box;
+
+    box-shadow: none;
+    margin-bottom: 0px;
+    border: 1px solid rgb(232, 232, 232);
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-image: initial;
+    opacity: 1;
+    pointer-events: auto;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+}
+.secondtabindex{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    max-height: 1100px;
+    color: rgb(105, 105, 105);
+    padding: 10px 24px 20px;
+    pointer-events:auto;
+    opacity: 1;
+    transition: max-height 0.25s ease-in-out 0s, opacity 0.5s linear 0.25s;
+    
+}
+.secondtabindex span{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background: rgb(130, 130, 130);
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 3.5px;
+}
+.allexplore{
+    color: rgb(130, 130, 130);
+    font-size: 16px;
+    line-height:1.8;
+    margin-right: 10px;
+}
+.allexploreb{
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    margin-bottom: 12px;
+    width: 18%;
+    font-size: 16px;
+    line-height: 1.8;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+#alldelivercity{
+    width: 11.50%;
+    border-bottom: 1.5px solid rgb(28, 28, 28);
+    color: rgb(28, 28, 28);
+}
+.allexplore:hover{
+    color: rgb(54, 54, 54);
+}
+.allexploreb:hover{
+    color: rgb(54, 54, 54);
+}
+footer{
+    display: flex;
+    width: 100%;
+    background-color:rgb(248,248,248);
+    justify-content: center;
+}
+.footer{
+    max-width: 1100px;
+    width: 1100px;
+    padding: 48px 0px 22px;
+    position: relative;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.footerimgsection{
+    width: 132px;
+    height: 28px;
+    background-image: url("E:\\my projects\\zomatoclone\\images\\footer\\zomato.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+.india-english{
+    width:252px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.imgindiasection{
+    display: flex;
+    min-width: 100px;
+    width: max-content;
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    padding: 3px 7px;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 6px;
+    align-items: center;
+
+}
+.indiaimg{
+    width: 45PX;
+    height: 30PX;
+    display: inline-block;
+    background-image: url("E:\\my projects\\zomatoclone\\images\\footer\\indiaflag.jfif" );
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(0.488889);
+    margin-left: -12px;
+
+}
+#footerindia-web-span{
+  margin-left:10px;
+  color: rgb(28, 28, 28);
+  font-size: 18px;
+  line-height: 20px;
+  margin: 2px 5px 0px 8px;
+  font-weight: 400;
+}
+.webimg{
+    width: 35%;
+    height: 30PX;
+    display: inline-block;
+    background-image: url("E:\\my projects\\zomatoclone\\images\\footer\\world-globe-icon-png.webp" );
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(0.7);
+    margin-left: -6px;
+}
+.india-web-i{
+    margin-left: 10px;
+}
+.footer2{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.common-footer2{
+    position: relative;
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 18.3333%;
+    padding: 0px;
+}
+.footer2class{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight:500;
+    margin: 0px 0px 12px;
+}
+.common-nav-footer2 a{
+    display:block;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(105, 105, 105);
+    margin: 5px 0px;
+
+}
+
+
+
+.lastline{
+    margin-top: 50px;
+    border-width: 1px 0px 0px;
+    border-top-style: solid;
+    border-top-color: rgb(207, 207, 207);
+
+}
+.lastpara{
+    font-size: 13.8px;
+    color: rgb(79, 79, 79);
+    line-height: 17px;
+    margin-top: 23px;
+}
+.footer2esection1{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.footercontact a{
+  color: #1c1c1c;
+}
+.footercontact{
+    padding-left:4px;
+    display: inline-block;
+    line-height: 1;
+    width: 22px;
+    height: 22px;
+}
+
+
+.footer2esection2{
+    position: relative;
+    max-width: 100%;
+    width: 137px;
+    height: 40px;
+}
+.footer2esection2a{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\appstoreimg.webp");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 24px;
+    
+}
+.footer2esection2b{
+    background-image: url("E:\\my projects\\zomatoclone\\images\\main\\googleplayimg.webp");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 12px;
+}
